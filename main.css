@@ -30,10 +30,10 @@
     grid-template-rows: auto;
     /* use letters from step 2 to build the grid */
     grid-template-areas: 
-        "q q q q q h h h h h h h"
-        "b b b b b b e e e e e e"
-        "f f f f f f e e e e e e"
-        "f f f f f f a a a a a a";
+        ". q q q q h h h h h h ."
+        ". b b b b b f f f f f ."
+        ". a a a a a f f f f f ."
+        ". e e e e e f f f f f .";
 }
 
 
@@ -108,7 +108,7 @@ h4{
 blockquote {
     grid-area: q;
     font-weight:400;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom:20px;
     text-align: right;
 }
@@ -127,18 +127,22 @@ header {
 }
 
 .bibliography {
+    margin-right: 15px;
     grid-area: b;
 }
 
 .skills {
+    margin-right: 15px;
     grid-area: e;
 }
 
 .software {
+    margin-right: 15px;
     grid-area: a;
 }
 
 .experience{
+    margin-right: 15px;
     grid-area: f;
 }
 
