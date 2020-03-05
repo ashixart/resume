@@ -43,11 +43,11 @@ li{
 }
 
 .date{
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-weight: 400;
-}
+    }
 body{
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     font-weight: 500;
     
 }
@@ -58,28 +58,30 @@ ul{
 
 
 h1{
-    font-size: 3em;
-    font-family: 'Roboto'; 
+    font-size: 2.5em;
+    font-family: 'Montserrat'; 
     font-weight: 900;
-
     
 }
 
+
 h2{
     padding-top:25px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-weight: 700;
+    
 }
+
 
 h3{
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
     padding-top:10px;
 }
 
 h4{
     font-weight: 300;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
 
 }
 
@@ -111,6 +113,7 @@ blockquote {
     padding-top: 10px;
     padding-bottom:20px;
     text-align: right;
+    
 }
 
 img {
@@ -124,25 +127,26 @@ header {
     grid-area: h;
     padding-top: 4px;
     text-align: center;
+
 }
 
 .bibliography {
-    margin-right: 15px;
+    /* margin-right: 25px; */
     grid-area: b;
 }
 
 .skills {
-    margin-right: 15px;
+    /* margin-right: 25px; */
     grid-area: e;
 }
 
 .software {
-    margin-right: 15px;
+    /* margin-right: 25px; */
     grid-area: a;
 }
 
 .experience{
-    margin-right: 15px;
+    /* margin-right: 15px; */
     grid-area: f;
 }
 
