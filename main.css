@@ -44,7 +44,7 @@ li{
 
 .date{
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 500;
     }
 body{
     font-family: 'Roboto';
@@ -54,6 +54,7 @@ body{
 
 ul{
     list-style: none;
+   
 }
 
 
